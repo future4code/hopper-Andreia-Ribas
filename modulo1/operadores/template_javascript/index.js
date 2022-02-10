@@ -72,3 +72,14 @@ let valorPagar = 280 * 0.05;
 let valorPagarDesconto = 280 * 0.05 * 0.85;
 console.log(valorPagar);
 console.log(valorPagarDesconto);
+
+// Desafio n3
+console.log("20lb equivalem a", 20 / 2.205, "kg");
+console.log("10.5oz equivalem a", 10.5 / 35.274, "kg");
+console.log("100mi equivalem a", 100 * 1609, "m");
+console.log("50ft equivalem a", 50 / 3.281, "m");
+console.log("103.56gal equivalem a", 103.56 * 3.785, "l");
+console.log("450xic equivalem a", 450 * 0.24, "l");
+
+let valorLb = Number(prompt("Insira um valor em lb para converter para kg"));
+console.log(valorLb, "lb equivalem a", valorLb / 2.205, "kg");
