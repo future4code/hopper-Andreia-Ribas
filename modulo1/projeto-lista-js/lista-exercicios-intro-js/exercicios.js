@@ -90,7 +90,7 @@ function trocaPrimeiroEUltimo(array) {
 
 // EXERCÍCIO 12
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
-  return string1.toUpperCase(0) === string2.toUpperCase(0);
+  return string1.toUpperCase() === string2.toUpperCase();
 }
 
 // EXERCÍCIO 13
