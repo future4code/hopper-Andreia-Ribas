@@ -59,17 +59,17 @@ const pessoaInfo = [
   { nome: "Marcos", idade: 35, profissao: "Diplomata" },
 ];
 
-function imprimeConsole2(objeto, indice) {
-  [
-    objeto[indice].nome,
-    objeto[indice].nome.length,
-    objeto[indice].idade,
-    objeto[indice].profissao,
-    objeto[indice].profissao.length,
-  ];
+function imprimeConsole2(objeto) {
+  console.log([
+    objeto.nome,
+    objeto.nome.length,
+    objeto.idade,
+    objeto.profissao,
+    objeto.profissao.length,
+  ]);
 }
 
-imprimeConsole2(pessoaInfo, 0);
+imprimeConsole2(pessoaInfo[0]);
 
 // Exercício 3
 const carrinho = [];
