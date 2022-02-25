@@ -38,11 +38,7 @@ if (turnoAluno === "M") {
 }
 
 // Exercício 3
-const turnoAluno = prompt(
-  "Em qual turno você estuda? M = manhã, V = vespertino, N = noturno"
-).toUpperCase();
-
-switch (turnoAluno) {
+switch (turnoAluno2) {
   case "M":
     console.log("Bom dia!");
     break;
