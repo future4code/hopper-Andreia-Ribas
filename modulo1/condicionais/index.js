@@ -38,7 +38,7 @@ if (turnoAluno === "M") {
 }
 
 // Exercício 3
-switch (turnoAluno2) {
+switch (turnoAluno) {
   case "M":
     console.log("Bom dia!");
     break;
